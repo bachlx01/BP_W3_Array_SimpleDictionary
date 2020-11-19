@@ -1,0 +1,20 @@
+.main {
+    border: 5px solid aqua;
+    width: 800px;
+    margin: 0 auto;
+    background-color: lavender;
+}
+.inputText {
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+.outputResult {
+    position: relative;
+    float: left;
+    margin: 10px;
+    border: 1px solid grey;
+    width: 200px;
+    height: 20px;
+    background-color: white;
+}

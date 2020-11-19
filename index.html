@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="main">
+    <div class="header"><img src="dictionary.jpg" alt="Logo" height="100px"></div>
+    <div class="container">
+        <div class="chooseLanguage">
+            <select name="" id="selectLanguage">
+                <option value="english">Tiếng Anh => Tiếng Việt </option>
+                <option value="vietnamese">Tiếng Việt => Tiếng Anh </option>
+            </select>
+        </div>
+        <div class="content">
+            <div class="inputText">
+                <input type="text" id="inputText">
+            </div>
+            <div class="outputResult" id="outputResult">
+            </div>
+        </div>
+        <div style="clear: both"></div>
+        <div class="translate">
+            <button id="translate" onclick="translateText()">Translate</button>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
